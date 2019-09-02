@@ -1,0 +1,48 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js check --integrity
+
+PATH: 
+  /home/tantan33/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/bin:/home/tantan33/.rbenv/versions/2.6.3/bin:/home/tantan33/.rbenv/libexec:/home/tantan33/.rbenv/plugins/ruby-build/bin:./bin:./node_modules/.bin:/home/tantan33/.rbenv/shims:/home/tantan33/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  8.10.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  TypeError: Cannot read property '@rails/webpacker@^4.0.7' of undefined
+      at /usr/share/yarn/lib/cli.js:47672:25
+      at Array.filter (<anonymous>)
+      at InstallationIntegrityChecker.<anonymous> (/usr/share/yarn/lib/cli.js:47671:38)
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:304:30)
+      at /usr/share/yarn/lib/cli.js:322:14
+      at new Promise (<anonymous>)
+      at new F (/usr/share/yarn/lib/cli.js:5296:28)
+      at InstallationIntegrityChecker.<anonymous> (/usr/share/yarn/lib/cli.js:301:12)
+      at InstallationIntegrityChecker.check (/usr/share/yarn/lib/cli.js:47720:21)
+
+npm manifest: 
+  {
+    "name": "my-static-portfolio-page",
+    "private": true,
+    "dependencies": {
+      "@rails/webpacker": "^4.0.7",
+      "bootstrap": "^4.3.1",
+      "jquery": "^3.4.1",
+      "popper.js": "^1.15.0"
+    },
+    "devDependencies": {
+      "webpack-dev-server": "^3.8.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
