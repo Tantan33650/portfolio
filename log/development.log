@@ -3858,3 +3858,102 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2019-09-03 18:50:39 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+  Rendered shared/_navbar.html.erb (1.1ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 31ms (Views: 30.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/project" for ::1 at 2019-09-03 18:50:41 +0200
+Processing by ProjectController#index as HTML
+  Rendering project/index.html.erb within layouts/application
+  Rendered project/index.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/project" for ::1 at 2019-09-03 18:51:19 +0200
+Processing by ProjectController#index as HTML
+  Rendering project/index.html.erb within layouts/application
+  Rendered project/index.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 25ms (Views: 24.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for ::1 at 2019-09-03 18:51:41 +0200
+Processing by ContactController#index as HTML
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 25ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/project" for ::1 at 2019-09-03 18:51:52 +0200
+Processing by ProjectController#index as HTML
+  Rendering project/index.html.erb within layouts/application
+  Rendered project/index.html.erb within layouts/application (0.3ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-09-03 18:51:53 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for ::1 at 2019-09-03 18:51:55 +0200
+Processing by ContactController#index as HTML
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (0.3ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 53ms (Views: 52.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for ::1 at 2019-09-03 18:52:00 +0200
+Processing by ContactController#index as HTML
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 26ms (Views: 25.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-09-03 18:52:04 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 23ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/project" for ::1 at 2019-09-03 18:52:15 +0200
+Processing by ProjectController#index as HTML
+  Rendering project/index.html.erb within layouts/application
+  Rendered project/index.html.erb within layouts/application (0.6ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 24ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for ::1 at 2019-09-03 18:52:20 +0200
+Processing by ContactController#index as HTML
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (0.3ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 22ms (Views: 21.3ms | ActiveRecord: 0.0ms)
+
+
