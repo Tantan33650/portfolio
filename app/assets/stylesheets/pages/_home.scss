@@ -1,1 +1,23 @@
 // Specific CSS for your home-page
+.page {
+  position: relative;
+  top: 431px;
+}
+
+.about {
+  position: absolute;
+  text-align: center;
+  right: 0;
+  left: 0;
+  top: 1064px;
+  background-color: white;
+  border-radius: 8px;
+  margin: 30px;
+}
+
+.about p {
+  color: black;
+  font-size: 32px;
+  padding: 337px;
+  margin: 61px;
+}

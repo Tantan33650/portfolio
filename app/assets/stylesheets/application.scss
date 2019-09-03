@@ -11,3 +11,20 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+
+body {
+  position: relative;
+  background-color: #ffffff;
+  background-image: url("https://images.unsplash.com/photo-1506452819137-0422416856b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1266&q=80");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  margin: 0;
+  color: $gray;
+  width: 100%;
+  min-height: 2500px;
+}
+
+
