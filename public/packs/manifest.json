@@ -1,13 +1,13 @@
 {
-  "application.js": "/packs/js/application-00f2ef71a1c95566b94a.js",
-  "application.js.map": "/packs/js/application-00f2ef71a1c95566b94a.js.map",
+  "application.js": "/packs/js/application-00a9e1bd91c79f6f7964.js",
+  "application.js.map": "/packs/js/application-00a9e1bd91c79f6f7964.js.map",
   "entrypoints": {
     "application": {
       "js": [
-        "/packs/js/application-00f2ef71a1c95566b94a.js"
+        "/packs/js/application-00a9e1bd91c79f6f7964.js"
       ],
       "js.map": [
-        "/packs/js/application-00f2ef71a1c95566b94a.js.map"
+        "/packs/js/application-00a9e1bd91c79f6f7964.js.map"
       ]
     },
     "navbar": {
@@ -17,8 +17,18 @@
       "js.map": [
         "/packs/js/navbar-3067f4a9f48a2f3ef150.js.map"
       ]
+    },
+    "smooth-scroll": {
+      "js": [
+        "/packs/js/smooth-scroll-10845e5d7fed4585dcd6.js"
+      ],
+      "js.map": [
+        "/packs/js/smooth-scroll-10845e5d7fed4585dcd6.js.map"
+      ]
     }
   },
   "navbar.js": "/packs/js/navbar-3067f4a9f48a2f3ef150.js",
-  "navbar.js.map": "/packs/js/navbar-3067f4a9f48a2f3ef150.js.map"
+  "navbar.js.map": "/packs/js/navbar-3067f4a9f48a2f3ef150.js.map",
+  "smooth-scroll.js": "/packs/js/smooth-scroll-10845e5d7fed4585dcd6.js",
+  "smooth-scroll.js.map": "/packs/js/smooth-scroll-10845e5d7fed4585dcd6.js.map"
 }

@@ -1,7 +1,7 @@
 .navbar{
     color: #ffffff;
-    font-size: 1.5rem;
-    padding: 6rem 10rem 3rem 10rem;
+    font-size: 28px;
+    padding: 6rem 7rem 3rem 10rem;
     position: fixed;
     transition: all .5s;
     transition-timing-function: ease-out;
@@ -16,7 +16,7 @@
 
     &.onscroll{
         background-color:#000000;
-        padding: 2rem 10rem;
+        padding: 2rem 7rem;
     }
 }
 
