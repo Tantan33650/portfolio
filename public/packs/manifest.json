@@ -1,13 +1,23 @@
 {
-  "application.js": "/packs/js/application-00a9e1bd91c79f6f7964.js",
-  "application.js.map": "/packs/js/application-00a9e1bd91c79f6f7964.js.map",
+  "application.js": "/packs/js/application-d59a337c48f6a9ece38e.js",
+  "application.js.map": "/packs/js/application-d59a337c48f6a9ece38e.js.map",
+  "cards.js": "/packs/js/cards-72b004d1eb8f3512a630.js",
+  "cards.js.map": "/packs/js/cards-72b004d1eb8f3512a630.js.map",
   "entrypoints": {
     "application": {
       "js": [
-        "/packs/js/application-00a9e1bd91c79f6f7964.js"
+        "/packs/js/application-d59a337c48f6a9ece38e.js"
       ],
       "js.map": [
-        "/packs/js/application-00a9e1bd91c79f6f7964.js.map"
+        "/packs/js/application-d59a337c48f6a9ece38e.js.map"
+      ]
+    },
+    "cards": {
+      "js": [
+        "/packs/js/cards-72b004d1eb8f3512a630.js"
+      ],
+      "js.map": [
+        "/packs/js/cards-72b004d1eb8f3512a630.js.map"
       ]
     },
     "navbar": {

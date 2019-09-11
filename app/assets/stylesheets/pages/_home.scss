@@ -4,18 +4,29 @@
 }
 
 .about {
-  height: 70vh;
+  height: 68vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   background-color: white;
   border-radius: 8px;
-  margin: 30px;
+  margin: 30px 50px;
+  overflow: scroll;
 }
 
 .about p {
   color: black;
-  font-size: 32px;
-  padding: 32px;
+  font-size: 20px;
+  padding: 30px 0px;
+  margin: 0;
+}
+
+.about-text {
+  height: 100%;
+  padding: 62px 62px 32px 62px;
+}
+
+#two {
+  margin: 0;
 }
