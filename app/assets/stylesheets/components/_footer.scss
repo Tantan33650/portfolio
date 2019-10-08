@@ -122,3 +122,15 @@
   position: absolute;
   right: 16px;
 }
+
+
+@media (min-width: 100px) and (max-width: 575px) {
+  .footer-wrapper .footer-icon,
+  .footer-wrapper .footer-icon:visited {
+    width: 40px;
+    height: 40px;
+  }
+  .footer {
+    height: 60px;
+  }
+}

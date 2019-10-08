@@ -25,3 +25,17 @@
 .banner a {
   margin-top: 10px;
 }
+
+
+@media (min-width: 100px) and (max-width: 575px) {
+  .banner h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+  }
+  .banner h3 {
+    font-size: 26px;
+  }
+  .banner {
+    width: 90%;
+  }
+}
