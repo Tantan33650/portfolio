@@ -1,0 +1,5 @@
+meta_product_name: "Jonathan Wagner"
+meta_title: "Jonathan Wagner"
+meta_description: "Portfolio Full Stack Web Developer"
+meta_image: "portfolio.png" # should exist in `app/assets/images/`
+twitter_account: "@USERNAME"   # required for Twitter Cards

@@ -3,23 +3,23 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Portfolio Jonathan Wagner</title>
-    <meta name="description" content="Site portfolio de Jonathan Wagner - Full Stack Developer !">
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Jonathan Wagner Portfolio" />
-    <meta property="og:description" content="Site portfolio de Jonathan Wagner - Full Stack Developer !" />
-    <meta property="og:image" content="https://res.cloudinary.com/my-apps-le-wagon/image/upload/v1583690032/Screenshot_from_2020-03-08_18-49-44_ot0klg.jpg">
-
-    <meta property="og:url" content="http://www.jonathanwagner.fr/" />
-    <meta property="og:site_name" content="Jonathan Wagner" />
-
-    <meta name=”twitter:title” content="Jonathan Wagner">
-    <meta name=”twitter:description” content="Site portfolio de Jonathan Wagner - Full Stack Developer !">
-    <meta name=”twitter:image” content="https://res.cloudinary.com/my-apps-le-wagon/image/upload/v1583690032/Screenshot_from_2020-03-08_18-49-44_ot0klg.jpg">
-    <meta name=”twitter:site” content=”@USERNAME”>
-    <meta name=”twitter:creator” content=”@USERNAME”>
-
     <title>Jonathan Wagner</title>
+    <meta name="description" content="Site portfolio de Jonathan Wagner - Full Stack Developer !">
+
+    <meta property="og:title" content="<%= meta_title %>" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="<%= request.original_url %>" />
+    <meta property="og:image" content="<%= meta_image %>">
+    <meta property="og:description" content="<%= meta_description %>" />
+    <meta property="og:site_name" content="<%= meta_title %>" />
+
+    <meta name="twitter:card" content="summary_large_image">
+   <meta name="twitter:site" content="<%= DEFAULT_META["twitter_account"] %>">
+   <meta name="twitter:title" content="<%= meta_title %>">
+   <meta name="twitter:description" content="<%= meta_description %>">
+   <meta name="twitter:creator" content="<%= DEFAULT_META["twitter_account"] %>">
+   <meta name="twitter:image:src" content="<%= meta_image %>">
+
     <%= csrf_meta_tags %>
     <%= action_cable_meta_tag %>
     <%= stylesheet_link_tag 'application', media: 'all' %>
