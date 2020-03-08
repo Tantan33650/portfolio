@@ -1,5 +1,5 @@
 meta_product_name: "Jonathan Wagner"
 meta_title: "Jonathan Wagner"
 meta_description: "Portfolio of Jonathan Wagner - Full Stack Web Developer and Project Manager"
-meta_image: "portfolio.png" # should exist in `app/assets/images/`
+meta_image: "https://res.cloudinary.com/my-apps-le-wagon/image/upload/v1583690032/Screenshot_from_2020-03-08_18-49-44_ot0klg.jpg" # should exist in `app/assets/images/`
 twitter_account: "@USERNAME"   # required for Twitter Cards
